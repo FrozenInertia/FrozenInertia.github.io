@@ -3,7 +3,7 @@ description:      frozen inertia, indie rock band est. 1998 by tim graves and br
 logo:             omikron.png
 disqus_shortname: shortname
 # Assign a default image for your site's header and footer
-default_bg:       default_bg.jpg
+default_bg:       FrozenInertia-Album.png
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
