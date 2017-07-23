@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     {% include head.html %}
 </head>
@@ -34,7 +34,7 @@
                     <a href="{{ link.url }}">{{ link.title }}</a>
                 {% endif %}
                 </li>
-{% endfor %}            
+{% endfor %}
                 <li><a href="/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
             </ul>
         </nav>
@@ -107,15 +107,18 @@
     <div id="main" class="content" role="main" itemprop="mainContentOfPage">
         <div class="container">
             <div class="row">
+                <article class="page col-md-8 col-md-offset-2">
+                    <a class="twitter-timeline" href="https://twitter.com/timothygraves">Tweets by timothygraves</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </article>
                 <div class="page-body" itemprop="description">
                 {{ content }}
-                </div>    
+                </div>
             </div>
         </div>
     </div>
 
     {% include footer.html %}
 
-    {% include scripts.html %}  
+    {% include scripts.html %}
 </body>
 </html>
