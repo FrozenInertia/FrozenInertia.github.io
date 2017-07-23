@@ -48,10 +48,8 @@ author:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    frozen inertia, indie rock band est. 1998 by tim graves and brad palmer based in Canal Fulton Ohio and San Francisco, California.
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  facebook:
-  linkedin:
-  instagram:
+  twitter: timothygraves
+  facebook: FrozenIntertia
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
